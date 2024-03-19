@@ -1,0 +1,83 @@
+.team .box{
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid rgb(60 25 130/10%);
+    padding: 2rem;
+    transition: 0.5s;
+
+}
+.team .box:hover{
+    box-shadow: 0 0 20px 0 rgb(110 120 130 /10%);
+    cursor: pointer;
+}
+
+.team .details{
+    text-align: center;
+    margin-top: 20px;
+}
+.team .img{
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    position: relative;
+}
+
+.team img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.team .img i{
+    color: rgb(69, 172, 231);
+    font-size: 25px;
+    position: absolute;
+    top: 35px;
+    right: -15px;
+    z-index: 5;
+}
+
+.team .img::after{
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 110px;
+    height: 110px;
+    border: 5px solid rgb(219, 213, 213);
+    border-radius: 50%;
+}
+
+.team label{
+    display:inline-block;
+    margin-top: 35px;
+    font-size: large;
+
+}
+.team i{
+    color: rgb(110, 107, 107);
+    margin-right: 5px;
+    /* background-color: rgb(223, 230, 230); */
+    
+    
+}
+.team ul{
+    display: inline-block;
+    margin-top: 5px;
+}
+.team ul li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 5px;
+    
+}
+.team .btn{
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgb(255, 136, 0);
+
+}

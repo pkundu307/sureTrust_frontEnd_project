@@ -1,0 +1,26 @@
+.recent .text{
+    padding: 30px;
+}
+.recent .category span{
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 500;
+    height: 40px;
+}
+
+.recent .category i{
+    font-size: 20px;
+    color: grey;
+
+}
+.recent p{
+    color: rgb(125, 131, 131);
+}
+
+.recent button{
+    border-top: 1px solid rgb(125, 131, 131);
+    padding: 10px 30px;
+}
+

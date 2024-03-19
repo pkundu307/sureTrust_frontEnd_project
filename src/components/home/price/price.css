@@ -1,0 +1,45 @@
+.price{
+    text-align: center;
+}
+
+.price .content .box{
+    width: 35%;
+    padding: 30px;
+    border-radius: 10px;
+}
+.price button{
+    margin-bottom: 20px;
+}
+.price h3{
+    font-size: 20px;
+}
+.price h1{
+    font-size: 60px;
+}
+.price ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.price label{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.price .btn5{
+    width: 100%;
+}
+
+.price .content .box{
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 30px;
+}
+
+/* //remove orange circle
+//currenct size
+//tick marks */
